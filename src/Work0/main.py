@@ -5,8 +5,8 @@ import taichi as ti
 ti.init(arch=ti.gpu)
 
 # 导入我们自己写的模块
-from config import WINDOW_RES, PARTICLE_COLOR, PARTICLE_RADIUS
-from physics import init_particles, update_particles, pos
+from .config import WINDOW_RES, PARTICLE_COLOR, PARTICLE_RADIUS
+from .physics import init_particles, update_particles, pos
 
 def run():
     print("正在编译 GPU 内核，请稍候...")
