@@ -1,6 +1,6 @@
 # src/Work0/physics.py
 import taichi as ti
-from config import *
+from .config import *
 
 # 1. 数据结构定义：在显存中开辟空间
 pos = ti.Vector.field(2, dtype=float, shape=NUM_PARTICLES)
