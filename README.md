@@ -10,11 +10,11 @@
     - Work1_xz:实验二的选做任务,构造了三维正方体的旋转与映射
     - Work1_xz_cz:实验二的选做任务,利用插值法进行旋转操作
     - Work2:实验三的基础任务,构建了Bézier曲线的渲染
-    - Work2_xz_yt:
-    - Work2_xz_zy:
-    - Work3:
-    - Work3_xz_bp:
-    - Work3_xz_hs:
+    - Work2_xz_yt:实验三的选做任务,构造了贝塞尔曲线的反走样绘制
+    - Work2_xz_zy:实验三的选做任务,构造了B样条曲线与贝塞尔曲线的对比与切换
+    - Work3:实验四的基础任务,构造了Phong光照模型
+    - Work3_xz_bp:实验四的选做任务,构造了Blinn-Phong光照模型
+    - Work3_xz_hs:实验四的选做任务,构造了硬阴影模型
     
 
 # 课程实验

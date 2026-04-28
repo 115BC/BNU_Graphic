@@ -2,3 +2,6 @@
 __pycache__/
 src/Work0/__pycache__/config.cpython-312.pyc
 src/Work0/__pycache__/physics.cpython-312.pyc
+imgui.ini
+pyproject.toml
+uv.lock
