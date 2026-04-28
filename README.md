@@ -10,6 +10,11 @@
     - Work1_xz:实验二的选做任务,构造了三维正方体的旋转与映射
     - Work1_xz_cz:实验二的选做任务,利用插值法进行旋转操作
     - Work2:实验三的基础任务,构建了Bézier曲线的渲染
+    - Work2_xz_yt:
+    - Work2_xz_zy:
+    - Work3:
+    - Work3_xz_bp:
+    - Work3_xz_hs:
     
 
 # 课程实验
@@ -35,4 +40,15 @@
 - 掌握“光栅化”的基础概念：如何在像素缓冲区 (Frame Buffer) 中直接操作和点亮像素。
 - 掌握现代化图形界面中的鼠标点击与交互事件处理。
 
-![实验三曲线](../../img/work2_qx.gif)
+![实验三曲线](img/work2_qx.gif)
+![实验三走样](img/work2_xz_zy.gif)
+![实验三样条](img/work2_xz_yt.gif)
+
+# 实验四:Phong光照模型
+- 理论理解： 理解并掌握局部光照的基本原理，区分环境光（Ambient）、漫反射（Diffuse）和镜面高光（Specular）。
+- 数学基础： 熟练掌握三维空间中的向量运算（法向量计算、光线方向、视线方向与反射向量）。
+- 工程实践： 掌握如何利用 Taichi 实现交互式渲染，通过 UI 控件实时调节材质参数，直观感受各个参数对渲染结果的影响。
+
+![实验四](img/work3.gif)
+![实验四BP](img/work3_xz_bp.gif)
+![实验四HS](img/work3_xz_hs.gif)
