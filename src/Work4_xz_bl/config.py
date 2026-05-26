@@ -1,0 +1,30 @@
+# d:\code\spring2026\graphic\cg-lib\src\Work4_xz_bl\config.py
+import taichi as ti
+
+# 屏幕分辨率
+RESOLUTION = (800, 600)
+
+# 摄像机位置
+CAMERA_POS = (0.0, 2.0, 5.0)
+
+# 光源位置（可变）
+LIGHT_POS_DEFAULT = [2.0, 5.0, 3.0]
+
+# 最大弹射次数（可变）- 默认3
+MAX_BOUNCES_DEFAULT = 3
+
+# 材质类型常量
+MATERIAL_DIFFUSE = 0
+MATERIAL_MIRROR = 1
+MATERIAL_GLASS = 2  # 玻璃材质（加分项）
+
+# 几何体定义
+GROUND_Y = -1.0  # 地面Y坐标
+GLASS_SPHERE_CENTER = (-1.5, 0.0, 0.0)  # 玻璃球（左侧，原红球位置）
+GLASS_SPHERE_RADIUS = 1.0
+SILVER_SPHERE_CENTER = (1.5, 0.0, 0.0)  # 银色镜面球（右侧）
+SILVER_SPHERE_RADIUS = 1.0
+
+# 材质属性
+GLASS_REFRACT_INDEX = 1.5  # 玻璃折射率
+MIRROR_REFLECTANCE = 0.8   # 镜面反射率

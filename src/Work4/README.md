@@ -1,0 +1,5 @@
+# 实验五:光线追踪
+- 理论理解： 理解光线投射（Ray Casting）与光线追踪（Ray Tracing）的本质区别。
+- 全局光照： 掌握如何通过发射“次级射线（Secondary Rays）”来实现硬阴影（Hard Shadows）和理想镜面反射（Perfect Reflection）。
+- GPU 编程思维： 学习如何将传统的“递归”光线追踪算法改写为适合 GPU 并行计算的“迭代（循环）”模式。
+![实验五](img/work4.gif)
